@@ -11,7 +11,7 @@ public class MyRestController {
 	
 	 @RequestMapping(value = "/test/", method = RequestMethod.GET)
 	    public void listAllUsers() {
-	        
+	        System.out.println();
 	    }
 
 }
